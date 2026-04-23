@@ -31,11 +31,21 @@
 
 .searchbar__glass {
   background: url('./images/Search.svg') no-repeat;
-  background-position: -1px -1px;
   background-size: contain;
-  margin-right: 17px;
-  margin-left: 26px;
   color: #687c94;
+}
+
+.searchGlass__container--large {
+  width: 20px;
+  height: 20px;
+  margin-right: 17px;
+  margin-left: 25px;
+}
+
+.searchGlass__container--small {
+  width: 12px;
+  height: 12px;
+  margin: 0 9px 0 12px;
 }
 
 .searchbar__glass.large {
@@ -46,7 +56,6 @@
 .searchbar__glass.small {
   width: 11px;
   height: 11px;
-  margin: 0 9px 0 13px;
 }
 
 .searchbar:hover {
