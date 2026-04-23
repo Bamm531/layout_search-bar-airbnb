@@ -5,13 +5,9 @@
   font-style: normal;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
 body {
+  box-sizing: border-box;
+  padding: 0;
   margin: 0;
   font-weight: 300;
   font-family:
@@ -28,25 +24,4 @@ body {
     'Segoe UI Symbol';
   display: flex;
   flex-direction: column;
-} /* add styles here */
-
-form {
-  width: 100%;
-}
-
-input {
-  outline: none;
-  box-shadow: none;
-  font-family:
-    Avenir,
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif,
-    'Apple Color Emoji',
-    'Segoe UI Emoji',
-    'Segoe UI Symbol';
 }
